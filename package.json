@@ -13,13 +13,14 @@
   "devDependencies": {
     "dotenv": "^8.1.0",
     "jest": "^24.9.0",
+    "node.extend": ">=1.1.7",
     "serverless-dynamodb-local": "0.2.35",
-    "serverless-offline": "^5.10.1"
+    "serverless-offline": "^5.12.0"
   },
   "dependencies": {
-    "aws-sdk": "^2.538.0",
+    "aws-sdk": "^2.540.0",
     "mysql2": "^1.7.0",
-    "sequelize": "^5.18.1",
+    "sequelize": "^5.19.2",
     "serverless": "^1.53.0"
   }
 }
