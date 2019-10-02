@@ -1,0 +1,25 @@
+{
+  "name": "openapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./offline/seeds/runner.js",
+    "start": "sls offline start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "jest": "^24.9.0",
+    "serverless-dynamodb-local": "0.2.35",
+    "serverless-offline": "^5.10.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.538.0",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.18.1",
+    "serverless": "^1.53.0"
+  }
+}

@@ -1,0 +1,4 @@
+seed:
+  handler: src/handlers/seed/seed.handler
+  events:
+    - http: get /seed
