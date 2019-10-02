@@ -47,8 +47,6 @@ provider:
   environment:
     IS_OFFLINE: true 
     SLS_A_REGION: ap-southeast-2
-    SLS_A_ACCESS_KEY_ID: AKIA3SMDZBF52X5JGBFO
-    SLS_A_SECRET_ACCESS_KEY: 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
   iamRoleStatements:
     - Effect: Allow
       Action:
