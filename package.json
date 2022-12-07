@@ -21,6 +21,6 @@
     "aws-sdk": "^2.540.0",
     "mysql2": "^1.7.0",
     "sequelize": "^5.19.2",
-    "serverless": "^1.53.0"
+    "serverless": "^3.25.1"
   }
 }
